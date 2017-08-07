@@ -54,10 +54,10 @@ Ubuntu MATE and MATE Desktop user-exposed software components.
 
 ## Components from third parties used in Ubuntu MATE
 
-TDB.
+- robint99/mate-dock-applet
+- IKRadulov/mate-window-applets
+- solus-project/brisk-menu
 
 - ? Compton
 - ? Compiz
-- ? Brisk Menu
-- ? robint99/mate-dock-applet
 - ? Probably Others...
