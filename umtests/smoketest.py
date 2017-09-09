@@ -68,6 +68,11 @@ steps = [
         'components': ['solus-project/brisk-menu']
     },
     {
+        'action': 'Click the power button in the top right corner',
+        'expected': 'A menu comes up listing "About this computer", "System Settings", etc...',
+        'components': ['mate-indicator-applet']
+    },
+    {
         'action': 'In MATE Tweak, switch panels back to redmond',
         'expected': 'Redmond layout loads successfully',
         'components': ['mate-tweak', 'mate-panel']
