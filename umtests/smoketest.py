@@ -35,7 +35,7 @@ steps = [
     {
         'action': 'Select another wallpaper for background',
         'expected': 'The change is reflected on the desktop',
-        'components': ['caja', 'mate-cotrol-center']
+        'components': ['caja', 'mate-control-center']
     },
     {
         'action': 'Logout, then log back in.',
@@ -168,15 +168,25 @@ steps = [
         'components': ['mate-calc']
     },
     {
-        'action': '',
-        'expected': '',
-        'components': ['']
+        'action': 'In Applications -> Accessories select "Ubuntu MATE guide',
+        'expected': 'The Ubuntu MATE Help window comes up',
+        'components': ['mate-user-guide']
+    },
+    {
+        'action': 'In Applications -> System Tools select "MATE Disk Usage Analyzer"',
+        'expected': 'Disk Usage Analyzer window comes up',
+        'components': ['mate-utils']
+    },
+    {
+        'action': 'Right click the top panel -> Add to panel -> Hardware Sensors Monitor',
+        'expected': 'The applet is added and lists temperatures',
+        'components': ['mate-sensors-applet']
     },
     {
         'action': '',
         'expected': '',
         'components': ['']
-    }   
+    }
 ]
 
 
