@@ -48,8 +48,18 @@ steps = [
         'components': ['ubuntu-mate-welcome', 'software-boutique']
     },
     {
-        'action': 'In Boutique, install Accessories -> Redshift',
-        'expected': 'Application installs successfully',
+        'action': 'In Boutique, go to Accessories and select Redshift for install',
+        'expected': 'Application added to the queue',
+        'components': ['software-boutique']
+    },
+    {
+        'action': 'In Boutique, go to the install queue and apply changes, when the password prompt comes up go to a terminal and do: ps axuf | grep polkit-agent-helper-1',
+        'expected': 'The command result in one line ending with your username',
+        'components': ['mate-polkit']
+    },
+    {
+        'action': 'Input your password in the prompt and validate',
+        'expected': 'Application should install correctly',
         'components': ['software-boutique', 'ubuntu']
     },
     {
@@ -188,9 +198,9 @@ steps = [
         'components': ['mate-sensors-applet']
     },
     {
-        'action': '',
-        'expected': '',
-        'components': ['']
+        'action': 'In the Software Boutique, go to Servers and install caja-share',
+        'expected': 'Application installs successfully.',
+        'components': ['mate-user-share']
     }
 ]
 
