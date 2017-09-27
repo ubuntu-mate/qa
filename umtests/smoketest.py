@@ -123,7 +123,7 @@ steps = [
         'components': ['mate-settings-daemon', 'mate-terminal']
     },
     {
-        'action': 'Go to Appliations -> System Tools and select "System Monitor"',
+        'action': 'Go to Applications -> System Tools and select "System Monitor"',
         'expected': 'System Monitor window opens',
         'components': ['mate-menus', 'mate-system-monitor']
     },
@@ -143,18 +143,18 @@ steps = [
         'components': ['mate-screensaver']
     },
     {
-        'action': 'Go to System -> Preferences -> Hardware -> Power Management',
+        'action': '[if on laptop] Go to System -> Preferences -> Hardware -> Power Management',
         'expected': 'The Power Management Preferences window opens',
         'components': ['mate-power-manager']
     },
     {
-        'action': 'In the power management window move the slider to set display brightness',
+        'action': '[if on laptop] In the power management window move the slider to set display brightness',
         'expected': 'The screen brigthness change',
         'components': ['mate-power-manager']
     },
     {
         'action': 'In the terminal: eom /usr/share/backgrounds/ubuntu-mate-common/',
-        'expected': 'Eye Of MATE opens and you can see the background',
+        'expected': 'Eye Of MATE opens and you can see the backgrounds',
         'components': ['eom', 'mate-terminal']
     },
     {
@@ -194,7 +194,7 @@ steps = [
     },
     {
         'action': 'Right click the top panel -> Add to panel -> Hardware Sensors Monitor',
-        'expected': 'The applet is added and lists temperatures',
+        'expected': 'The applet is added and lists temperatures if any sensor is found or an error text if there is no sensors',
         'components': ['mate-sensors-applet']
     },
     {
