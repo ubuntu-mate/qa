@@ -48,12 +48,12 @@ steps = [
         'components': ['ubuntu-mate-welcome', 'software-boutique']
     },
     {
-        'action': 'In Boutique, go to Accessories and select Redshift for install',
+        'action': 'In Boutique, go to Accessories and select Redshift for install or another component if redshift is already installed',
         'expected': 'Application added to the queue',
         'components': ['software-boutique']
     },
     {
-        'action': 'In Boutique, go to the install queue and apply changes, when the password prompt comes up go to a terminal and do: ps axuf | grep polkit-agent-helper-1',
+        'action': 'In Boutique, go to the install queue and apply changes, when the password prompt comes up go to a terminal and do: ps axuf | grep [p]olkit-agent-helper-1',
         'expected': 'The command result in one line ending with your username',
         'components': ['mate-polkit']
     },
