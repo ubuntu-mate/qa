@@ -41,7 +41,6 @@ Ubuntu MATE and MATE Desktop user-exposed software components.
 - mate-user-guide
 - mate-user-share
 - mate-utils
-- mozo
 - pluma
 
 
