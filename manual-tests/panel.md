@@ -330,3 +330,15 @@ Steps to test:
 Expected result:
 
 * user is able to drag application icon from the Applications/Brisk menu to the Panel and is able to run application using its icon on the Panel.
+
+### Copying application icon from the Panel to the Desktop
+
+Steps to test:
+
+1. Have application icon on the Panel
+1. Drag the icon from Panel and drop it to Desktop
+1. Double-click the just-copied application icon on the desktop.
+
+Expected result:
+
+* user is able to drag application icon from the Panel and drop it to Desktop, user is able to run application using its icon on the Desktop.
