@@ -7,7 +7,7 @@ MATE Disk Image Mounter is preinstalled on MATE DE. It may be called from termin
 Steps to test:
 
 1. Open MATE Disk Image Mounter
-1. Choose the needed ISO-image, click *Open*
+1. Choose the needed ISO-image, click *Mount*
 1. Open Caja and navigate to the mounted virtual drive in the *Devices* section
 1. Click on the Eject button in the right of the virtual drive
 
