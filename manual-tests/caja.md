@@ -671,4 +671,24 @@ Expected results:
 
 * user is able to copy or move files or folders from or to Desktop area.
 
+### Drag file from Desktop and drop it to application launcher
 
+Steps to test:
+
+1. Minimize all windows to show the Desktop
+1. Drag some file from Desktop and drop it to some application launcher (for example Firefox on top MATE Panel which is preinstalled)
+
+Expected results:
+
+* application (Firefox) is launched and shows (or asks to save somewhere) the dropped file
+
+### Drag file from Desktop and drop it to some application launcher on Desktop
+
+Steps to test:
+
+1. Minimize all windows to show the Desktop
+1. Drag some file from Desktop and drop it to some application launcher on Desktop (for example Firefox)
+
+Expected results:
+
+* application (Firefox) is launched and shows (or asks to save somewhere) the dropped file
