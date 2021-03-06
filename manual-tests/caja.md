@@ -692,3 +692,16 @@ Steps to test:
 Expected results:
 
 * application (Firefox) is launched and shows (or asks to save somewhere) the dropped file
+
+### Drag URL from Firefox and drop it to any folder opened in Caja
+
+Steps to reproduce:
+
+1. Open Firefox, enable Bookmarks Toolbar
+1. Bookmark some page in it to Bookmarks Toolbar
+1. Open Caja
+1. Drag some bookmark from Bookmarks Toolbar and drop it to Caja window
+
+Expected results:
+* Caja accepted this drop, created desktop-file with URL, will allow to open the web-page on its launch
+
