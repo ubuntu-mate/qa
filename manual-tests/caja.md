@@ -490,6 +490,8 @@ Installation:
       mkdir -p ~/.local/share/caja-python/extensions
       cp /usr/local/share/nautilus-python/extensions/nautilus-thg.py ~/.local/share/caja-python/extensions/caja-thg.py
 
+* on 21.04 you can use `sudo apt-get install tortoisehg-caja`.
+
 After installation restart Caja with `caja -q && caja`.
 
 Steps to test:
@@ -527,7 +529,7 @@ Installation:
       caja -q
       caja
 
-* for 20.04 LTS and 20.10 use:
+* for 20.04 LTS, 20.10 and 21.04 use:
 
       sudo apt install rabbitvcs-cli python3-caja python3-tk git mercurial subversion
     
