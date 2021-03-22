@@ -1,4 +1,4 @@
-# Ubuntu MATE Quality Assurance (QA) Guide
+# Ubuntu MATE Quality Assurance (QA) ISO Testing Guide
 
 Welcome to the **Ubuntu MATE** ISO Testing Guide 
 
