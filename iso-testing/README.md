@@ -22,14 +22,6 @@ If you have used Launchpad, you already have an Ubuntu One account.
 
 ![login](login.png)
 
-#### GitHub
-
-You can create a GitHub account here:
-<https://github.com/join?source=prompt-code>
-
-![github-createaccount](github-createaccount.png)
-
-Enter information. Select the free plan. Verify email.
 
 #### Ubuntu MATE Community
 
