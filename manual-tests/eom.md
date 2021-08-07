@@ -16,8 +16,8 @@ Expected result:
 
 Below is the table of plugins in various Ubuntu versions:
 
-| Active Plugins               | 16.04 LTS | 18.04 LTS | 19.04 | 19.10 | 20.04 LTS | 20.10 |
-| ---------------------------- | --------- | --------- | ----- | ----- | --------- | ----- |
-| Date in statusbar            | +         | +         | +     | +     | +         | +     |
-| Fullscreen with double-click | +         | +         | +     | +     | +         | +     |
-| Reload Image                 | +         | +         | +     | +     | +         | +     |
+| Active Plugins               | 16.04 LTS | 18.04 LTS | 19.04 | 19.10 | 20.04 LTS | 20.10 | 21.04 |
+| ---------------------------- | --------- | --------- | ----- | ----- | --------- | ----- | ----- |
+| Date in statusbar            | +         | +         | +     | +     | +         | +     | +     |
+| Fullscreen with double-click | +         | +         | +     | +     | +         | +     | +     |
+| Reload Image                 | +         | +         | +     | +     | +         | +     | +     |
