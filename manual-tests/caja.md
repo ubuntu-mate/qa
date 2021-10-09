@@ -626,6 +626,18 @@ Expected results:
 
 * the `xclock` application is launched
 
+### Launch of *.desktop*-file from `/usr/share/applications`
+
+Steps to test:
+
+1. Open Caja
+1. Navigate to `/usr/share/applications`
+1. Double-click on the randomly selected desktop-file icon
+
+Expected results:
+
+* the selected desktop-file icon has correct name and icon, the corresponding application is launched.
+
 ### Launch of *.desktop*-file copied from `/usr/share/applications`
 
 Steps to test:
