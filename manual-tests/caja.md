@@ -408,7 +408,7 @@ Expected results:
 
 #### Dropbox
 
-Installation is as simple as `sudo apt-get install caja-dropbox`. It will download proprietary installer and extract it to the `/var/lib/dropbox`. Then you need to restart Caja and provide your Dropbox credentials in the opened browser window to start using Dropbox.
+Installation is as simple as `sudo apt-get install caja-dropbox libappindicator1`. It will download proprietary installer and extract it to the `/var/lib/dropbox`. Then you need to restart Caja and provide your Dropbox credentials in the opened browser window to start using Dropbox.
 
 The autostart for Caja-Dropbox is controlled by `caja-dropbox-autostart`.
 
