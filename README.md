@@ -5,6 +5,18 @@ Resources and assets for Ubuntu MATE quality assurance testers.
 The goal of this project is to facilitate comprehensive test coverage of
 Ubuntu MATE and MATE Desktop user-exposed software components.
 
+## Way to test all applications with `*.desktop`-files
+
+There is a special script named `launch-all-desktop-apps.sh`, it is located at [manual-tests/launch-all-desktop-apps.sh](manual-tests/launch-all-desktop-apps.sh).
+
+It was designed to run all applications which have `*.desktop`-files and are not hidden. The script runs each application and allows user to watch `~/.xsession-errors` log file in the same terminal.
+
+Possible workflow for the script is the following:
+
+1. user downloads latest daily Ubuntu MATE ISO file to run it in live or in installed variant;
+1. opens terminal and runs this script to detect anomalies of programs, their behavior and `~/.xsession-errors` log usage;
+1. depending on the results user proceed with bug sorting or reporting new ones.
+
 ## List of manual tests
 
 | **Origin**         | **Application name from `*.desktop` file** | **Ubuntu package name**                                                                                    | **Link to test**                            | **Executables under test**                                                                                                                                      | Executables without tests                                                                                                                                                                                                                                                                                                                                                                                                                    |
