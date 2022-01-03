@@ -445,8 +445,8 @@ Installation:
 
       # 1. Get the newest Mercurial with Python 3 support
       cd ~/Downloads
-      wget http://archive.ubuntu.com/ubuntu/pool/universe/m/mercurial/mercurial-common_5.5.1-1_all.deb
-      wget http://archive.ubuntu.com/ubuntu/pool/universe/m/mercurial/mercurial_5.5.1-1_amd64.deb
+      wget https://launchpad.net/ubuntu/+source/mercurial/5.5.1-1/+build/19906561/+files/mercurial-common_5.5.1-1_all.deb
+      wget https://launchpad.net/ubuntu/+source/mercurial/5.5.1-1/+build/19906561/+files/mercurial_5.5.1-1_amd64.deb
     
       # 2. Install Mercurial packages
       sudo apt-get install ./mercurial*.deb -y
